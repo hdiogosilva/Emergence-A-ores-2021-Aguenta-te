@@ -799,6 +799,22 @@ a.fn-item.active {
   border-color: #9eabb3;
 }
 
+#equipa .post-content p img {
+	display: inline;
+	padding: 10px 30px 10px 30px;
+  margin: 0 auto;
+}
+
+#equipa .post-content {
+	margin: 0 auto;
+	width: 80%;
+	display: flex;
+	align-content: end;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+}
+
 /* ==========================================================================
       8. Footer - The bottom of every page
       ========================================================================== */
