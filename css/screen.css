@@ -536,6 +536,7 @@ ul li {
   height: 70%;
   word-break: break-word;
   hyphens: auto;
+  max-width: 50%;
 }
 
 /* Add a little circle in the middle of the border-bottom on our .post
@@ -684,7 +685,7 @@ a.fn-item.active {
 /* Keep large images within the bounds of the post-width */
 .post-content img {
   display: block;
-  max-width: 100%;
+  max-width: 50%;
   margin: 0 auto;
 }
 
@@ -1090,6 +1091,78 @@ a.fn-item.active {
   }
 }
 
+
+  /* ==========================================================================
+    Custom Images
+    ========================================================================== */
+#põe-te-sóbrio {
+    max-width: 100%;
+}
+
+#põe-te-sóbrio .post-header {
+    max-width: 62%;
+    position: relative;
+    width: 80%;
+    margin: 0rem auto;
+}
+
+#põe-te-sóbrio p {
+    text-align: end;
+    font-style: italic;
+}
+  
+#põe-te-sóbrio img {
+    max-width:100%;
+}
+
+#legenda {
+    max-width: 100%;
+}
+
+#legenda .post-header {
+    max-width: 62%;
+    position: relative;
+    width: 80%;
+    margin: 0rem auto;
+}
+
+#legenda img {
+    max-width:100%;
+}
+
+
+
+#equipa {
+    max-width: 100%;
+}
+
+#equipa > section > p > img {
+    max-width: 30%;
+}
+
+#equipa .post-header {
+    max-width: 62%;
+    position: relative;
+    width: 80%;
+    margin: 0rem auto;
+}
+
+#equipa .post-content {
+    max-width: initial;
+}
+
+#equipa img {
+    max-width:100%;
+}
+
+#equipa p {
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+  
 /* ==========================================================================
       10. Media Queries - Smaller than 500px
       ========================================================================== */
